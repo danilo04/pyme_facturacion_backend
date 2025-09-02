@@ -1,0 +1,40 @@
+# Gradle
+.gradle/
+build/
+!build/libs/*.jar
+
+# IDE
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Docker
+Dockerfile
+docker-compose*.yml
+.dockerignore
+
+# Documentation
+*.md
+HELP.md
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test results
+/test-results/
+/reports/
