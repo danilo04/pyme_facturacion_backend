@@ -23,7 +23,7 @@ class SecurityConfig {
                     .anyRequest().authenticated()
             }
             .headers { headers ->
-                headers.frameOptions().disable() // For H2 console
+                headers.frameOptions { frameOptions -> frameOptions.disable() } // For H2 console
             }
 
         return http.build()
